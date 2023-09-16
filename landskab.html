@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.cass">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VildMad</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="logos.svg" alt="VildMad Logo">
+        </a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="index.html">Forside</a>
+            <a href="byen.html" class="active">Byen</a>
+            <a href="skoven.html">Skoven</a>
+            <a href="landskab.html">Stranden</a>
+            <a href="quiz.html">Quiz</a>
+
+
+
+        </nav>
+    </header>
+    <main>
+
+        <section class="forside1">
+            <div class="tekst1">
+                <h1 class="jt --debug">
+                    <span class="jt__row">
+                        <span class="jt__text">Strand</span>
+                    </span>
+                    <span class="jt__row jt__row--sibling" aria-hidden="true">
+                        <span class="jt__text">Strand</span>
+                    </span>
+                    <span class="jt__row jt__row--sibling" aria-hidden="true">
+                        <span class="jt__text">Strand</span>
+                    </span>
+                    <span class="jt__row jt__row--sibling" aria-hidden="true">
+                        <span class="jt__text">Strand</span>
+                    </span>
+                </h1>
+
+
+            </div>
+
+        </section>
+        <section class="tekst2">
+            <h1>Alle fund på stranden</h1>
+        </section>
+
+
+        <section class="svend" id="svend">
+
+
+
+            <template id="strandenitems">
+
+                <a href="produkt.html?id=1">
+                    <div class="card">
+                        <div class="imgBox">
+                            <img src="" alt="svamp">
+                            <div class="img-blur">
+                                <p>Udforsk</p>
+                            </div>
+                        </div>
+                        <h2 class="title"></h2>
+
+
+
+                    </div>
+                </a>
+            </template>
+
+
+
+        </section>
+        <section class="textsection" id="textsection">
+            <h1>Hvad skal jeg huske?</h1>
+            <ul>
+                <li>
+                    Undgå at sanke planter, der beskytter kystlinjen og sanddynerne.
+                </li>
+                <li>
+                    Vær opmærksom på tidevandet og undgå at blive fanget af stigende vandstand under din sanketur.
+                </li>
+                <li>
+                    Fjern alt affald og efterlad stranden lige så smuk, som du fandt den.
+                </li>
+            </ul>
+        </section>
+        <footer class="footer">
+            <div class="footer-tekst">
+                <p> Copyright &copy; 2023 by Holdsport</p>
+            </div>
+            <div class="footer-iconup">
+                <a href="#">
+                    <i class='bx bx-up-arrow-alt'></i>
+                </a>
+            </div>
+
+        </footer>
+
+
+    </main>
+
+    <script src="forside.js"></script>
+    <script src="stranden.js"></script>
+</body>
+
+</html>
